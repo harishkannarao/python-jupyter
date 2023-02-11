@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flake8 = "*"
+pytest = "*"
+pytest-html = "*"
+
+[dev-packages]
+assertpy = "*"
+jupyterlab = "*"
+jupytext = "*"
+
+[requires]
+python_version = "3.7"
