@@ -20,9 +20,32 @@ Repository to explore python with jupyter
 
     pipenv run jupyter notebook
 
+Open `main_notebook.py` and save it, it will auto generate `main_notebook.ipynb` file
+
 ### Run jupyter lab
 
     pipenv run jupyter lab
+
+`Right Click` on `main_notebook.py` and `Open With -> Jupyter Notebook` and save it, it will auto generate `main_notebook.ipynb` file
+
+### Jupytext Pairing
+
+#### With Jupyter Notebook
+
+* Create a new notebook with `ipynb` extension and give a name
+* File -> Jupytext -> Tick Pair Notebook with percent Script
+* File -> Jupytext -> Tick Autosave Notebook
+* Click Save
+* Now the Notebook is paired with Jupytext plugin
+
+#### With Jupyter Lab
+
+* Create a new notebook with `ipynb` extension and give a name
+* View -> Active Command Palette
+* Search Pair Notebook with percent Script
+* Select or Tick Pair Notebook with percent Script
+* Click Save
+* Now the Notebook is paired with Jupytext plugin
 
 ### Update packages to latest
 
