@@ -28,7 +28,7 @@ Open `main_notebook.py` and save it, it will auto generate `main_notebook.ipynb`
 
 `Right Click` on `main_notebook.py` and `Open With -> Jupyter Notebook` and save it, it will auto generate `main_notebook.ipynb` file
 
-### Jupytext Pairing
+### Jupytext Pairing a new Notebook
 
 #### With Jupyter Notebook
 
@@ -41,6 +41,24 @@ Open `main_notebook.py` and save it, it will auto generate `main_notebook.ipynb`
 #### With Jupyter Lab
 
 * Create a new notebook with `ipynb` extension and give a name
+* View -> Active Command Palette
+* Search Pair Notebook with percent Script
+* Select or Tick Pair Notebook with percent Script
+* Click Save
+* Now the Notebook is paired with Jupytext plugin
+
+### Jupytext Pairing an existing Notebook
+
+#### With Jupyter Notebook
+
+* Open the python `*.py` file already stored with percent Script, Jupyter notebook with automatically create a file with `ipynb` extension with same name
+* File -> Jupytext -> Tick Pair Notebook with percent Script
+* File -> Jupytext -> Tick Autosave Notebook
+* Click Save
+
+#### With Jupyter Lab
+
+* Open the python `*.py` file already stored with percent Script, Jupyterlab with automatically create a file with `ipynb` extension with same name
 * View -> Active Command Palette
 * Search Pair Notebook with percent Script
 * Select or Tick Pair Notebook with percent Script
