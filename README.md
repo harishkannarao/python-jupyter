@@ -14,7 +14,7 @@ Repository to explore python with jupyter
 
     pip install pipenv --upgrade
 
-	pipenv install --dev
+    pipenv install --dev
 
 ### Run jupyter notebook
 
