@@ -16,6 +16,14 @@ Repository to explore python with jupyter
 
     pipenv install --dev
 
+If running jupyter notebook on a cloud machine, then use `--system` to install the depedencies in the host machines python, instead of using virtual environment
+
+    pipenv install --dev --system
+
+For CI environments, use `--deploy` to strictly adhere to the current `Pipfile.lock` without update it
+
+    pipenv install --dev --system --deploy
+
 ### Run jupyter notebook
 
     pipenv run jupyter notebook
