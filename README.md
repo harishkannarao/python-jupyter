@@ -28,6 +28,14 @@ Open `main_notebook.py` and save it, it will auto generate `main_notebook.ipynb`
 
 `Right Click` on `main_notebook.py` and `Open With -> Jupyter Notebook` and save it, it will auto generate `main_notebook.ipynb` file
 
+### Run jupyter notebook as script with default arguments
+
+    pipenv run python main_notebook.py
+
+### Run jupyter notebook as script with arguments
+
+    pipenv run python main_notebook.py --input 'Hello World' --number 800
+
 ### Jupytext Pairing a new Notebook
 
 #### With Jupyter Notebook
